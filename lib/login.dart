@@ -97,7 +97,7 @@ class LoginPageState extends State<LoginPage>
               child: new Text("Login"),
               textColor: Colors.white,
               onPressed: (){
-                Navigator.pushNamedAndRemoveUntil(context,'/home',ModalRoute.withName('/'));
+                Navigator.pushNamedAndRemoveUntil(context,'/home',ModalRoute.withName('/login'));
                   }
                 )
               ],
