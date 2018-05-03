@@ -39,6 +39,11 @@ class MyHomePage extends StatelessWidget {
             trailing: new Icon(Icons.person),
             onTap: () => Navigator.of(context).pushNamed("/a"),
          ),
+         new ListTile(
+            title: new Text("Log Out" ),
+            trailing: new Icon(Icons.power),
+            onTap: () => Navigator.of(context).pushNamed("/login"),
+         ),
          new Divider(color: Colors.black ),
             new ListTile(
             title: new Text("Close"),
